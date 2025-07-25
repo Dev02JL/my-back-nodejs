@@ -9,7 +9,7 @@ async function testAPI() {
     // Test 1: Créer un message
     console.log('1️⃣ Test POST /api/messages');
     const createResponse = await axios.post(`${API_BASE_URL}/messages`, {
-      name: 'Jean Test',
+      name: 'Will Test',
       message: 'Ceci est un message de test !'
     });
     console.log('✅ Message créé:', createResponse.data);

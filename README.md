@@ -4,18 +4,24 @@ Une API REST simple pour gérer des messages avec Node.js, Express et MongoDB.
 
 ## 🚀 Installation
 
-1. **Installer les dépendances :**
+1. **Cloner le projet :**
+```bash
+git clone git@github.com:Dev02JL/my-back-nodejs.git
+cd my-back-nodejs
+```
+
+2. **Installer les dépendances :**
 ```bash
 npm install
 ```
 
-2. **Configuration de l'environnement :**
+3. **Configuration de l'environnement :**
 Créez un fichier `.env` à la racine du projet avec le `.env.exemple`
 
-3. **Base de données :**
+4. **Base de données :**
 L'application utilise MongoDB Atlas (cloud). Aucune installation locale de MongoDB n'est nécessaire.
 
-4. **Lancer le serveur :**
+5. **Lancer le serveur :**
 ```bash
 # Mode développement (avec nodemon)
 npm run dev
